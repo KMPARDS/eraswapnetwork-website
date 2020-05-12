@@ -3099,11 +3099,12 @@ background: linear-gradient(to right, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 
 }
 @media only screen and (max-width: 992px) {
   .currency-area .rete-list {
-    width: 50%;
-	float:left !important;
     padding-left: 8px;
     padding-right: 8px;
 	
+  }
+  .about-area .about-img {
+      top: 0px !important;
   }
 }
 @media (max-width: 580px){
@@ -3214,6 +3215,9 @@ padding-top: 35px;
     display: block;
     z-index: 9;
   }
+   .slide .hidden-sm{
+     display: block ;
+ }
 }
 @media only screen and (max-width: 480px) {
   .currency-area .rete-list:last-child {
@@ -3231,6 +3235,13 @@ padding-top: 35px;
   .projects {
     padding: 75px 0 37px;
   }
+  .currency-area {
+    position: relative;
+    overflow:inherit;
+  }
+   .slider-area .hidden-sm{
+    display: none !important;
+   }
 }
 .projects .project-list {
   position: relative;
@@ -3802,7 +3813,7 @@ background: linear-gradient(to right, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 
 .steps-area .steps-heading .right-con {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 80px;
 }
 @media only screen and (max-width: 320px) {
   .steps-area .steps-heading .right-con {
