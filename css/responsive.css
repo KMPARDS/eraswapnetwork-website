@@ -46,7 +46,7 @@
 	.my-video-dimensions{width: 400px;height: 207px;}
 	.video-area .videos-heding .videos-box .video-js .vjs-big-play-button{top: 24%;}
 	.video-area .videos-heding h2{font-size: 36px;}
-	footer .footer-top .con ul li a{width: 45px;height: 45px;line-height: 39px;font-size: 20px;}
+	footer .footer-top .con ul li a{width: 65px;height: 65px;line-height: 59px;font-size: 30px;}
 	footer .footer-top .con ul li{padding: 0 5px;}
 	.media-area .mediabrand ul{margin: 0;}
 	.e_chart_3 {height: 300px !important;}
@@ -110,7 +110,7 @@
 }
 @media (max-width: 1199px) and (min-width: 991px){
 	.rete-list{
-		
+		width:23% !important;
 		margin-left:15px !important;
 	}
 }
