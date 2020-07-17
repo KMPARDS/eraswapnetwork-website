@@ -2230,7 +2230,9 @@ background: linear-gradient(to right, rgba(45,193,201,1) 0%, rgba(57,100,208,1) 
   margin-right: 0px;
 }
 .about-area{
-	background:#08091b;
+  background:#08091b;
+  position: relative;
+    z-index: 11;
 }
 @media only screen and (max-width: 1600px) {
   .about-area .about-img {
