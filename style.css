@@ -2415,8 +2415,8 @@ footer {
 footer .footer-bottom {
   display: block;
   background: #08091b;
-  height: 100px;
-  line-height: 100px;
+  height: 50px;
+  line-height:50px;
   position: relative;
 }
 footer .footer-bottom .copyright p {
@@ -2429,11 +2429,11 @@ footer .footer-bottom .copyright p span {
   color: #3297cc;
 }
 footer .footer-bottom .foo-link {
-  text-align: right;
+  /* text-align: right; */
 }
 footer .footer-bottom .foo-link ul li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 5px;
   position: relative;
 }
 footer .footer-bottom .foo-link ul li:after {
@@ -2441,7 +2441,7 @@ footer .footer-bottom .foo-link ul li:after {
   position: absolute;
   right: -2px;
   width: 2px;
-  top: 5px;
+  top: 24px;
   bottom: 5px;
   background: #8486a6;
 }
@@ -2458,8 +2458,9 @@ footer .footer-bottom .foo-link ul li a {
   color: #8486a6;
   display: block;
   line-height: 26px;
-  text-transform: uppercase;
-  font-size: 14px;
+  text-transform: capitalize;
+  font-size: 12px;
+  margin-top: 15px;
 }
 footer .footer-bottom .foo-link ul li a:hover {
   color: #3297cc;
@@ -2469,6 +2470,7 @@ footer .footer-top {
   background: #10122d;
   display: block;
   position: relative;
+  padding: 20px 0 !important;
 }
 footer .footer-top .con {
   position: relative;
@@ -2485,7 +2487,7 @@ footer .footer-top .con h2 {
 footer .footer-top .con ul li {
   display: inline-block;
   position: relative;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 footer .footer-top .con ul li:first-child {
   padding-left: 0;
@@ -2495,9 +2497,9 @@ footer .footer-top .con ul li:last-child {
 }
 footer .footer-top .con ul li a {
   display: block;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
 background: rgba(57,100,208,1);
 background: -moz-linear-gradient(left, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(57,100,208,1)), color-stop(100%, rgba(45,193,201,1)));
@@ -2509,7 +2511,7 @@ background: linear-gradient(to right, rgba(57,100,208,1) 0%, rgba(45,193,201,1) 
 
   text-align: center;
   color: #ffffff;
-  font-size: 42px;
+  font-size: 22px;
   border-radius: 100%;
 }
 footer .footer-top .con ul li a:hover {

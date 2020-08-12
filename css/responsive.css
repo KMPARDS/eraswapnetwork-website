@@ -33,6 +33,13 @@
 	.easypiechart{display: block;}
 	.tokens-area .token-con{margin: 0;}
 	.e_chart_3 div{margin: 0 auto;}
+	footer .footer-top .con {
+    position: relative;
+    z-index: 999;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+}
 	.token-details .cart-list .label-chatrs{padding: 62px 100px;}
 	.token-details .owl-controls .owl-buttons div.owl-prev{left: 0;border-radius: 0 15px 15px 0;}
 	.token-details .owl-controls .owl-buttons div.owl-next{right: 0;border-radius: 15px 0 0 15px ;}
@@ -46,7 +53,7 @@
 	.my-video-dimensions{width: 400px;height: 207px;}
 	.video-area .videos-heding .videos-box .video-js .vjs-big-play-button{top: 24%;}
 	.video-area .videos-heding h2{font-size: 36px;}
-	footer .footer-top .con ul li a{width: 65px;height: 65px;line-height: 59px;font-size: 30px;}
+	/* footer .footer-top .con ul li a{width: 65px;height: 65px;line-height: 59px;font-size: 30px;} */
 	footer .footer-top .con ul li{padding: 0 5px;}
 	.media-area .mediabrand ul{margin: 0;}
 	.e_chart_3 {height: 300px !important;}
